@@ -1,0 +1,49 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(9, 75, 114, 0.9); /* Transparent dark blue */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  /* Styling for the content inside the popup */
+  .popup-content {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 90%;
+    color: #094b72;
+  }
+  
+  .popup-content h2 {
+    margin-top: 0;
+    color: #094b72;
+  }
+  
+  .popup-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling the "I Agree" button */
+  #accept-btn {
+    background-color: #094b72;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #accept-btn:hover {
+    background-color: #073a59; /* Darker shade on hover */
+  }
